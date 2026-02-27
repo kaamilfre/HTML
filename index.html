@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> 
+<body>
+ 
+    <h1 style="color:#998585; 
+    font-family:sans-serif;
+     background-color:#dfdddd;
+      width:250px; text-align: center; 
+      border-radius: 3px; padding:15px;"   
+    
+id="h1" onclick="hey()"
+
+    
+    >Loading...</h1>
+
+
+<button onclick="test()">Add+</but
+    ton>
+
+
+
+
+
+
+
+    <script>
+
+        /* string Methods */
+
+// let h1 = document.getElementById("h1");
+
+
+// let h2="BroCodes";
+// let numbers = '123-456-789'
+
+
+/*  not Method */
+
+// let username = window.prompt("Enter Your User Name: ");
+
+// username= username.trim();
+// let one = username.charAt(0);
+// one = one.toUpperCase();
+
+// let two = username.slice(1)
+// two = two.toLowerCase();
+
+// username=one + two;
+
+
+/* Method Chaining */
+
+// username = username.trim().charAt(0).toUpperCase().repeat() + username.trim().slice(1).toLowerCase();
+
+// username = username.includes(" ");
+
+
+// if(username){
+// console.log(`thats inCorrect pleas stop space ❌`)
+
+// }
+// else{
+//     console.log(`Your Name is: ${username}`);
+// }
+
+
+
+
+
+
+
+
+
+
+
+// console.log(username)
+// h1.innerHTML=h2.charAt(0); 
+// h1.innerHTML= h2.toLowerCase();   
+// h1.innerHTML= h2.toUpperCase();
+// h1.textContent=h2.startsWith(" ");   
+// h1.innerHTML=h2.endsWith(" ");
+// h1.innerText= h2.includes(" ");
+// h1.innerText=numbers.replace("-"," + ");
+// h1.innerText=numbers.replaceAll("-","+");
+// h1.innerText=numbers.padEnd("37", ' A_B C D E Add+ thanks🎉🙏');
+// h1.textContent=numbers.padStart('15', "& * ");
+// h1.innerHTML=numbers.repeat(5);
+// h1.textContent= h2.indexOf('o');
+// h1.innerHTML= h2.lastIndexOf('');
+// h1.innerHTML=h2.length;
+// h1.innerHTML=h2.trim();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* adding Element to HTML in javascript */
+
+
+// let test = document.createElement("h1");
+
+// console.log(test)
+
+const h1 = document.getElementById("h1");
+
+function test(){
+h1.innerText="what's Your name:";
+h1.style.fontSize=("28px"),h1.style.color=("#fff"),
+h1.style.background=("#000")
+h1.style.boxShadow=("2px 5px 11px 2px gray")
+
+}
+
+
+
+function hey(){
+    h1.innerHTML='Loading...'
+    h1.style.background=("#dfdddd"),h1.style.color=("#998585"),
+    h1.style.border=("2px solid "),
+h1.style.boxShadow=("3px 7px 2px 2px black")
+
+
+
+}
+
+
+
+    </script>
+</body>
+</html>
